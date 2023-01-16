@@ -1,0 +1,18 @@
+h1 {
+  text-shadow: 2px 2px 2px yellow, 5px 5px 5px red;
+}
+
+h2 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: white;
+}
+
+.box {
+  color: red;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+  box-shadow: 5px 5px 5px 5px teal inset;
+}

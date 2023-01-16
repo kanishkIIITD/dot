@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card-outer-body {
+        border: 1px solid rgba(0, 0, 0, 0.066);
+        width: fit-content;
+        border-radius: 15px;
+        padding: 10px;
+        align-content: center;
+      }
+      .card-outer-body:hover {
+        background-color: rgba(228, 223, 245, 0.39);
+      }
+      .card-image {
+        border-radius: 15px;
+      }
+      .card-caption {
+        font-weight: bold;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        text-align: left;
+        font-size: 17px;
+        padding: 5px;
+      }
+      span {
+        font-size: 18px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      #discount {
+        color: rgb(114, 114, 250);
+        font-weight: bold;
+      }
+      #price {
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: line-through;
+        color: silver;
+      }
+      #offer {
+        padding: 5px;
+        background-color: rgb(104, 244, 165);
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-outer-body">
+      <div class="card-image">
+        <img src="card.jpg" alt="Webdevelopment Course Card" width="300px" />
+      </div>
+      <div class="card-caption">
+        <h3>
+          Web Development Master <br />
+          Course @dot Batch
+        </h3>
+        <hr />
+      </div>
+      <div class="card-price">
+        <span id="discount">&#8377;4500</span>
+        <span id="price">&#8377;6999</span>
+        <span id="offer">42% off</span>
+      </div>
+    </div>
+  </body>
+</html>

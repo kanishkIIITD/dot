@@ -1,10 +1,8 @@
-Quotation and Citation tags
-1. <blockquote></blockquote>
-2. <q></q>
-3. <cite></cite>
-4. <address></address>
-5. <abbr></abbr>  
+Font:
+1. font family
+2. font weight
+3. font style
+4. emphasis and importance 
+5. how to add external fonts
 
-HTML cheatsheet
-
-does rowgroup exist?
+Create a div in which it has an image, place 5 texts in top left, top right, bottom right, bottom left and center. (using position)

@@ -1,0 +1,14 @@
+.box {
+  border: 1px solid black;
+  height: 200px;
+  width: 400px;
+  /* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+  background-image: linear-gradient(1deg, red, blue);
+
+  /* background-image: radial-gradient(shape size at position, start-color, ..., last-color); */
+  background-image: radial-gradient(red 5%, green 15%, blue 60%);
+
+  /* background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...); */
+  background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+  border-radius: 50%;
+}
