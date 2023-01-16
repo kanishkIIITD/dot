@@ -1,0 +1,36 @@
+.wrapper {
+  position: relative;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.heading1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.heading2 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.heading3 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.heading4 {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.heading5 {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
