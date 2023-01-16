@@ -4,5 +4,3 @@ Font:
 3. font style
 4. emphasis and importance 
 5. how to add external fonts
-
-Create a div in which it has an image, place 5 texts in top left, top right, bottom right, bottom left and center. (using position)

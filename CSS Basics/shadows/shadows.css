@@ -14,5 +14,6 @@ h2 {
   height: 200px;
   width: 200px;
   /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
-  box-shadow: 5px 5px 5px 5px teal inset;
+  /* box-shadow: 5px 5px 5px 5px teal inset; */
+  /* box-shadow: 0 0 0 2px black, 0 0 0 4px transparent; */
 }
