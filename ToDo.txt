@@ -1,6 +1,9 @@
-Font:
-1. font family
-2. font weight
-3. font style
-4. emphasis and importance 
-5. how to add external fonts
+create mug website
+figma hw
+
+grid auto column?
+do practice on both felx and grid properties in code?
+find out the difference between grid and inline grid?
+explore two links given in the slide.
+create your own layout using both flex and grid.
+try nested grid.
