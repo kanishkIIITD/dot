@@ -1,10 +1,6 @@
-create mug website(repeat)
-figma hw
-
 grid auto column?
-do practice on both felx and grid properties in code?
+do practice on both flex and grid properties in code?
 find out the difference between grid and inline grid?
-blog website
 explore two links given in the slide.
 create your own layout using both flex and grid.
 try nested grid.

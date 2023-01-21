@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 25px;
+  margin-right: 25px;
+  flex-wrap: wrap;
+}
+
+.sub {
+  color: gray;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+header h1 {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: underline;
+}
+
+.gg-search {
+  color: gray;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 3rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+ol {
+  margin-left: 2rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  justify-content: space-around;
+}
+
+.about {
+  background-color: rgba(55, 170, 132, 0.099);
+  padding: 1rem;
+}
+
+.heading {
+  font-size: larger;
+  font-style: italic;
+}
+
+a {
+  color: blue;
+}
+
+.archives {
+  padding: 1rem;
+}
+
+.elsewhere {
+  padding: 1rem;
+}
+
+.box {
+  border: 3px solid rgb(128, 128, 128, 0.3);
+}
+
+button {
+  color: gray;
+  border-color: gray;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  opacity: 0.9;
+  margin-top: 2rem;
+}
+
+button:hover {
+  color: blue;
+  border-color: blue;
+  cursor: grab;
+}
