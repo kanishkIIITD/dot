@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: larger;
+  padding: 15px 40px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  text-align: center;
+
+  animation-name: first;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/* button:hover {
+  background-color: black;
+  cursor: pointer;
+} */
+@keyframes first {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: black;
+  }
+}
