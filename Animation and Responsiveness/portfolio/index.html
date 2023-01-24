@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/userAsset/NavLogo.jpg" />
   </head>
   <body>
     <div id="wrapper">
@@ -16,9 +17,9 @@
             <p>ohn Doe</p>
           </div>
           <div class="nav-bar-bookmark">
-            <div><a href="#project-section">Projects</a></div>
-            <div><a href="#skill-section">Skills</a></div>
-            <div><a href="#contact-me-section">Contact Me</a></div>
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contact-me">Contact Me</a></div>
           </div>
         </div>
         <div class="hero-section">
@@ -46,13 +47,15 @@
             <div class="user"><img src="images/userAsset/UserImage.png" /></div>
           </div>
         </div>
-        <div class="project-section">
-          <h2 class="page-header">Projects</h2>
+      </div>
+      <div class="project-section" id="projects">
+        <h2 class="page-header">Projects</h2>
 
+        <div class="project-container">
           <div class="project-card" id="project1">
-            <div class="project-number">01</div>
+            <div class="project-number project-number-right">01</div>
 
-            <div class="project-content">
+            <div class="project-content project-content-left">
               <div class="project-skills-container">
                 <img
                   class="project-skill"
@@ -123,9 +126,283 @@
               </div>
             </div>
           </div>
+
+          <div class="project-card" id="project2">
+            <div class="project-number project-number-left">02</div>
+            <div class="project-content project-content-right">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Redux.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+              <h2 class="project-heading">Breaking Copyrights</h2>
+              <p class="project-subHeading">
+                A platform to download copyrights free youtube music
+              </p>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+                <a href="">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project3">
+            <div class="project-number project-number-right">03</div>
+            <div class="project-content project-content-left">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+
+              <h2 class="project-heading">Isha Tattva</h2>
+              <p class="project-subHeading">
+                A Website for interior designer to showcase her works and
+                samples
+              </p>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+                <a href="">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project4">
+            <div class="project-number project-number-left">04</div>
+            <div class="project-content project-content-right">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+              <h2 class="project-heading">Granit</h2>
+              <p class="project-subHeading">
+                A architectural website to plan your building or home (Hebrew
+                Language)
+              </p>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+                <a href="">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-section container" id="skills">
+        <div class="text-position">Skills</div>
+        <div class="skill-section-left">
+          <h2 class="skill-heading">
+            <span class="caps">M</span>e and <br />
+            MyTech Stack
+          </h2>
+          <div class="skill-subHeading">
+            <p>
+              Hi Everyone My name is John Doe I am a Full Stack Web Developer I
+              have been working for last 3 Years and Currently I am working with
+              a Budding Startup in USA and a full Time Freelancer. Currently I
+              am working on NextJs and Making Beautiful UI-UX are my fey
+              features
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              doloremque aspernatur, maiores voluptatum minus laudantium?
+              Perspiciatis accusamus minima porro dolores necessitatibus, magni
+              dolorem et qui veniam nulla sequi molestiae maxime.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              quidem quos ullam veritatis voluptates tenetur qui ipsa nulla
+              culpa itaque?
+            </p>
+          </div>
+        </div>
+        <div class="skill-section-right">
+          <img
+            src="./images/userAsset/blob vector.png"
+            class="blob-style"
+            alt=""
+          />
+
+          <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+          <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+          <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/React.png" alt="" class="skills-logo" />
+          <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+          <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+          <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+        </div>
+      </div>
+      <div class="contact-me-section" id="contact-me">
+        <div class="contact-me-container">
+          <h2 class="page-header">Contact Me</h2>
+          <div class="form-heading">
+            Questions, Thoughts, Or Just Want To Say Hello?
+          </div>
+          <div class="form">
+            <input
+              class="form-field-container"
+              type="text"
+              name="Name"
+              placeholder="Enter your name"
+            />
+            <input
+              class="form-field-container"
+              type="text"
+              name="email"
+              placeholder="Enter your email address"
+            />
+            <input
+              class="form-field-container"
+              type="text"
+              name="Name"
+              placeholder="Enter your subject"
+            />
+            <textarea
+              class="form-field-container formfield-textarea"
+              name="message"
+              placeholder="Enter your message"
+              rows="10"
+              cols="30"
+            ></textarea>
+            <div class="send-message">
+              <button class="btn-pink btn-project btn-contact">
+                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="text">John Doe</div>
+        <div class="footer-content container">
+          <div class="footer-bookmarks">
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contact-me">Contact Me</a></div>
+          </div>
+          <div class="footer-social">
+            <a href="">
+              <i title="LinkedInLink" class="fa-brands fa-linkedin icon"></i>
+            </a>
+            <a href="">
+              <a href="">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <i title="TwitterLink" class="fa-brands fa-twitter icon"></i>
+            </a>
+            <a href="">
+              <i title="InstagramLink" class="fa-brands fa-instagram icon"></i>
+            </a>
+            <a href="">
+              <i title="GmailLink" class="fa-brands fa-facebook icon"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- JS script, will learn later -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script
       src="https://kit.fontawesome.com/58a810656e.js"
