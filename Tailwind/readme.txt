@@ -1,0 +1,1 @@
+After completing the tailwind project, add "build": "vite build" in scripts in package.json. Then use npm run build command in terminal to create dist file which will be used to deploy the project.
