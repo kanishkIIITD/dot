@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100vh;
+  background-color: #131516;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer_circle {
+  /* position: relative; */
+  border: 1px solid white;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  /* right: -40%;
+  top: 30%; */
+  /* transform: rotate(120deg) translateX(150px) rotate(-120deg); */
+  animation: outer_circle 10s infinite linear;
+}
+
+@keyframes outer_circle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.apple {
+  position: absolute;
+  top: -15%;
+  left: 34%;
+  right: 0%;
+  animation-name: spin-logo;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.google {
+  position: absolute;
+  top: 9%;
+  left: 77%;
+  right: 0%;
+  animation-name: spin-logo;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.netflix {
+  position: absolute;
+  top: 61%;
+  left: 77%;
+  right: 0%;
+  animation-name: spin-logo;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.microsoft {
+  position: absolute;
+  top: 84%;
+  left: 33%;
+  animation-name: spin-logo;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.meta {
+  position: absolute;
+  top: 64%;
+  left: -6%;
+  right: 0%;
+  animation-name: spin-logo;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.amazon {
+  position: absolute;
+  top: 15%;
+  left: -12%;
+  right: 0%;
+  animation-name: spin-logo;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin-logo {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.medium_circle {
+  background-color: #181a1b;
+  position: absolute;
+  /* border: 1px solid white; */
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  /* right: -40%;
+  top: 30%; */
+}
+
+.inner_circle {
+  background-color: #131516;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  animation: inner_circle 15s infinite linear;
+}
+
+@keyframes inner_circle {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.ola {
+  position: absolute;
+  /* top: -32%;
+  left: 14%;
+  right: 0%;
+  right: 0%; */
+  right: 50%;
+  animation-name: inner-spin-logo;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.linkedin {
+  position: absolute;
+  /* top: 66%;
+  left: 14%;
+  right: 0%;
+  right: 0%; */
+  right: -50%;
+  animation-name: inner-spin-logo;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.adobe {
+  position: absolute;
+  /* top: 16%;
+  left: -33%;
+  right: 0%;
+  right: 0%; */
+  top: 50%;
+  animation-name: inner-spin-logo;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.flipkart {
+  position: absolute;
+  top: -50%;
+  animation-name: inner-spin-logo;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes inner-spin-logo {
+  100% {
+    transform: rotate(-360deg);
+  }
+}

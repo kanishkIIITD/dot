@@ -1,0 +1,149 @@
+.meta {
+  /* position the object in the center of the circular path */
+  left: 315px;
+  position: absolute;
+  top: 143px;
+
+  /* now translate by radius amount */
+  /* insert a rotate or two in the mix */
+  /* to not rotate in the same axis we add rotate the same deg in the opp direction */
+  transform: rotate(60deg) translateX(150px) rotate(-60deg);
+
+  /* animation */
+  -webkit-animation: orbit1 4s linear infinite;
+}
+
+.amazon {
+  /* position the object in the center of the circular path */
+  left: 315px;
+  position: absolute;
+  top: 143px;
+
+  /* now translate by radius amount */
+  /* insert a rotate or two in the mix */
+  /* to not rotate in the same axis we add rotate the same deg in the opp direction */
+  transform: rotate(120deg) translateX(150px) rotate(-120deg);
+
+  /* animation */
+  -webkit-animation: orbit2 4s linear infinite;
+}
+
+.apple {
+  /* position the object in the center of the circular path */
+  left: 315px;
+  position: absolute;
+  top: 143px;
+
+  /* now translate by radius amount */
+  /* insert a rotate or two in the mix */
+  /* to not rotate in the same axis we add rotate the same deg in the opp direction */
+  transform: rotate(180deg) translateX(150px) rotate(-180deg);
+
+  /* animation */
+  -webkit-animation: orbit3 4s linear infinite;
+}
+
+.google {
+  /* position the object in the center of the circular path */
+  left: 315px;
+  position: absolute;
+  top: 143px;
+
+  /* now translate by radius amount */
+  /* insert a rotate or two in the mix */
+  /* to not rotate in the same axis we add rotate the same deg in the opp direction */
+  transform: rotate(240deg) translateX(150px) rotate(-240deg);
+
+  /* animation */
+  -webkit-animation: orbit4 4s linear infinite;
+}
+
+.netflix {
+  /* position the object in the center of the circular path */
+  left: 315px;
+  position: absolute;
+  top: 143px;
+
+  /* now translate by radius amount */
+  /* insert a rotate or two in the mix */
+  /* to not rotate in the same axis we add rotate the same deg in the opp direction */
+  transform: rotate(300deg) translateX(150px) rotate(-300deg);
+
+  /* animation */
+  -webkit-animation: orbit5 4s linear infinite;
+}
+
+.microsoft {
+  /* position the object in the center of the circular path */
+  left: 315px;
+  position: absolute;
+  top: 143px;
+
+  /* now translate by radius amount */
+  /* insert a rotate or two in the mix */
+  /* to not rotate in the same axis we add rotate the same deg in the opp direction */
+  transform: rotate(360deg) translateX(150px) rotate(-360deg);
+
+  /* animation */
+  -webkit-animation: orbit6 4s linear infinite;
+}
+
+@-webkit-keyframes orbit1 {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes orbit2 {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes orbit3 {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes orbit4 {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes orbit5 {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes orbit6 {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+/* 
+.amazon {
+  left: 315px;
+  position: absolute;
+  top: 143px;
+} */
