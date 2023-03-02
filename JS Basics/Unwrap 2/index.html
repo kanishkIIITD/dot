@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Share Modal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div id="wrapper">
+      <div id="circle1"></div>
+      <div id="circle2"></div>
+      <div id="card">
+        <img src="./zoro.png" alt="" />
+        <div id="name">Roronoa Zoro</div>
+        <div id="occ">Right Hand Man of the Pirate King</div>
+        <div id="btn-card">
+          <button onclick="openModal()" id="btn-share">
+            <i class="fas fa-share"></i>
+            <div>Share My Profile</div>
+          </button>
+          <button id="btn-follow">Follow Me</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal  -->
+    <div class="modal">
+      <div class="modal-header">
+        <div>Share My Profile</div>
+        <i onclick="closeModal()" class="fa-solid fa-x"></i>
+      </div>
+      <h3>Share this via</h3>
+      <div id="modal-icons">
+        <a href="#" class="icon" id="facebook"
+          ><i class="fa-brands fa-facebook-f"> </i
+        ></a>
+
+        <a href="#" class="icon" id="twitter"
+          ><i class="fa-brands fa-twitter"> </i
+        ></a>
+
+        <a href="#" class="icon" id="instagram"
+          ><i class="fa-brands fa-instagram"> </i
+        ></a>
+
+        <a href="#" class="icon" id="whatsapp"
+          ><i class="fa-brands fa-whatsapp"> </i
+        ></a>
+
+        <a href="#" class="icon" id="telegram"
+          ><i class="fa-brands fa-telegram"> </i
+        ></a>
+      </div>
+    </div>
+
+    <script src="styles.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2b3be1e2ce.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
