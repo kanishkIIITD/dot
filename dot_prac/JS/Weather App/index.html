@@ -4,6 +4,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Merriweather+Sans"
+        />
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
@@ -15,7 +25,7 @@
             </div>
             <div class="weather-container">
                 <!-- grant location container -->
-                <div class="grant-location-container">
+                <div class="sub-container grant-location-container">
                     <img
                         src="./assets/location.png"
                         alt="Loading"
@@ -42,13 +52,13 @@
                 </form>
 
                 <!-- Loading screen container -->
-                <div class="loading-container">
+                <div class="sub-container loading-container">
                     <img src="./assets/loading.gif" width="150" height="150" />
                     <p>Loading</p>
                 </div>
 
                 <!-- Show weather Information -->
-                <div class="user-info-container">
+                <div class="sub-container user-info-container">
                     <div class="name">
                         <p data-cityName></p>
                         <img data-countryIcon />
@@ -70,16 +80,28 @@
 
                         <div class="parameter">
                             <img src="./assets/humidity.png" />
-                            <p>humidity</p>
+                            <p>Humidity</p>
                             <p data-humidity></p>
                         </div>
 
                         <div class="parameter">
                             <img src="./assets/cloud.png" />
-                            <p>clouds</p>
+                            <p>Clouds</p>
                             <p data-cloudiness></p>
                         </div>
                     </div>
+                </div>
+
+                <!-- Error Code 404 -->
+                <div class="sub-container error-container">
+                    <img
+                        src="./assets/not-found.png"
+                        width="350"
+                        height="350"
+                        data-notFoundImg
+                    />
+                    <p data-apiErrorText>city not found</p>
+                    <button class="btn" data-apiErrorBtn>Retry</button>
                 </div>
             </div>
         </div>
