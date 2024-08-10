@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./main.css" />
+    </head>
+    <body class="bg-[#141d2f]">
+        <div
+            class="wrapper bg-[#141d2f] text-[#ffffff] h-screen w-[45%] m-auto"
+        >
+            <div
+                class="heading flex justify-between items-center tracking-[2.5px] font-bold"
+            >
+                <h1 class="text-[2em] ms-0 me-0">DevDetective</h1>
+                <!-- Dark Mode -->
+                <div class="mode flex justify-between items-center w-[90px]">
+                    <p mode-text class="ms-0 me-0">LIGHT</p>
+                    <img src="./assets/sun-icon.svg" mode-image />
+                </div>
+            </div>
+
+            <!-- Search Container -->
+            <div
+                class="search-container bg-[#1E2A47] rounded-[15px] flex items-center mb-6"
+            >
+                <img src="./assets/search-icon.svg" />
+                <form class="flex" data-searchForm>
+                    <input
+                        placeholder="Enter a Github username..."
+                        data-searchInput
+                    />
+                    <button class="btn">Search</button>
+                </form>
+            </div>
+
+            <!-- Card container -->
+            <div
+                class="card-container bg-[#1E2A47] rounded-[15px] flex items-start p-10 gap-16"
+            >
+                <!-- User avatar -->
+                <img
+                    data-avatar
+                    class="rounded-[100%]"
+                    src="./assets/64855541.jpeg"
+                    width="100px"
+                    height="100px"
+                />
+
+                <!-- Profile Info -->
+                <div class="profile-info gap-10">
+                    <div class="flex justify-between">
+                        <p data-name class="font-bold">Pranay Gupta</p>
+                        <p data-joinDate>Joined 05 May 2020</p>
+                    </div>
+
+                    <a
+                        data-htmlURL
+                        href="https://github.com/thepranaygupta"
+                        target="_blank"
+                        class="underline text-blue-500"
+                        >@thepranaygupta</a
+                    >
+
+                    <p data-bio>
+                        IT Engineer @Keysight • internet craftsman 🛠️ • building
+                        @propeers-in • tech @CodeHelp
+                    </p>
+
+                    <div
+                        class="flex py-4 px-10 bg-[#141d2f] rounded-[15px] justify-between"
+                    >
+                        <div>
+                            <p>Repos</p>
+                            <b data-repo>72</b>
+                        </div>
+
+                        <div>
+                            <p>Followers</p>
+                            <b data-followers>843</b>
+                        </div>
+
+                        <div>
+                            <p>Following</p>
+                            <b data-following>162</b>
+                        </div>
+                    </div>
+
+                    <div class="flex p-10 justify-between">
+                        <div>
+                            <div class="flex">
+                                <img src="./assets/location-icon.svg" />
+                                <p data-location>Gurugram, India</p>
+                            </div>
+
+                            <div class="flex">
+                                <img src="./assets/twitter-icon.svg" />
+                                <a
+                                    data-twitter
+                                    href="https://x.com/thepranaygupta"
+                                >
+                                    thepranaygupta</a
+                                >
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex">
+                                <img src="./assets/website-icon.svg" />
+                                <a data-blog href="thepranaygupta.bio.link"
+                                    >thepranaygupta.bio.link</a
+                                >
+                            </div>
+
+                            <div class="flex">
+                                <img src="./assets/company-icon.svg" />
+                                <p data-company>@Keysight</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
